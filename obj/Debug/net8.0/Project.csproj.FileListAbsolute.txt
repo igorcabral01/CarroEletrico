@@ -1,0 +1,14 @@
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.AssemblyInfoInputs.cache
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.AssemblyInfo.cs
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.csproj.CoreCompileInputs.cache
+C:\ProjetosUdemy\Project\bin\Debug\net8.0\Project.exe
+C:\ProjetosUdemy\Project\bin\Debug\net8.0\Project.deps.json
+C:\ProjetosUdemy\Project\bin\Debug\net8.0\Project.runtimeconfig.json
+C:\ProjetosUdemy\Project\bin\Debug\net8.0\Project.dll
+C:\ProjetosUdemy\Project\bin\Debug\net8.0\Project.pdb
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.dll
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\refint\Project.dll
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.pdb
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\Project.genruntimeconfig.cache
+C:\ProjetosUdemy\Project\obj\Debug\net8.0\ref\Project.dll
