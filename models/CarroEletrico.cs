@@ -12,22 +12,7 @@ namespace Project.models
     {
         protected string Modelo { get; set; }
         protected int PorcentagemBateria { get; set; }
-       
         public string VerificacaoDeManutencao { get; set; }
-        
-        public CarroEletrico(string modelo, int porcentagembateria, bool autonomiadabateria,string verificacaodemanutencao)
-        {
-            Modelo = modelo;
-            PorcentagemBateria = porcentagembateria;
-            
-        }
-
-        protected CarroEletrico(string modelo, int porcentagembateria, string verificacaodemanutencao)
-        {
-            Modelo = modelo;
-            PorcentagemBateria = porcentagembateria;
-            VerificacaoDeManutencao = verificacaodemanutencao;
-        }
 
         protected CarroEletrico(string modelo, int porcentagembateria)
         {
@@ -46,13 +31,30 @@ namespace Project.models
 
         public void Autonomia()
         {
-            if(PorcentagemBateria <= 30)
+            if(PorcentagemBateria <= 15)
             {
-                Console.WriteLine("Autonomia de 150KM...");
+                Console.WriteLine("Autonomia de 50...");
             }
-            else if(PorcentagemBateria <= 60)
+            else if(PorcentagemBateria <= 30)
             {
-                Console.WriteLine("Autonomia de 300km");
+                Console.WriteLine("Autonomia de 100");
+            }
+            
+             else if(PorcentagemBateria <= 50)
+            {
+                Console.WriteLine("Autonomia de 150");
+            }
+             else if(PorcentagemBateria <= 70)
+            {
+                Console.WriteLine("Autonomia de 210");
+            }
+             else if(PorcentagemBateria <= 80)
+            {
+                Console.WriteLine("Autonomia de 290");
+            }
+             else if(PorcentagemBateria <= 90)
+            {
+                Console.WriteLine("Autonomia de 340");
             }
             else
             {
@@ -68,4 +70,5 @@ namespace Project.models
         
         
     }
+    
 }
